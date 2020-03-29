@@ -1,9 +1,7 @@
-Suicide Linux
-=============
+Lethal Suicide Linux
+-------------
 
-[Suicide Linux](https://qntm.org/suicide) is now available from the comfort of Docker!
-
-With a single command, an instance of _Suicide Stretch_ will be downloaded and booted up, for all your suicidal needs.
+*Suicide Linux* was originally created by [qntm](https://qntm.org/) as one of their many maybe-someday-useful projects. The extract below from their website sums it up quite well:
 
 >You know how sometimes if you mistype a filename in Bash, it corrects your spelling and runs the command anyway? Such as when changing directory, or opening a file.
 >
@@ -13,9 +11,15 @@ With a single command, an instance of _Suicide Stretch_ will be downloaded and b
 
 -- https://qntm.org/suicide
 
-![screenshot](screenshot.png)
+Sounds fun, right? Well, I decided it was really cool, but I thought `rm -rf /` was a little *tame*. We could do better. We have the technology.
+
+Introducing... `dd if=/dev/zero of=/dev/sd* bs=4M status=none`
+
+With the changes from this fork, you can be assured that any typo you make with *Lethal Suicide Linux* installed will be the death of any file in a `/*` radius. Mass disk destruction ensured. **Please run this in a VM. This is NSFM - Not Safe For Machines**.
+
+<!-- ![screenshot](screenshot.png) -->
 
 Running
 -------
 
-    docker run --rm -it -t tiagoad/suicide-linux
+> Instructions yet to be added
